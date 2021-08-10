@@ -1,0 +1,37 @@
+.navbar{
+    width: 100%;
+    max-height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101524;
+}
+
+.navbar li{
+    list-style-type: none;
+    padding: 20px;
+    height: 80px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar li:hover{
+    background : #44e2e2;
+    cursor: pointer;
+  
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+
+
