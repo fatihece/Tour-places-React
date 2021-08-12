@@ -8,13 +8,8 @@ function App() {
       <Navbar />
       <Header />
       <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+   
+
     </div>
   );
 }
