@@ -22,10 +22,7 @@
     width: 95%;
     height: 250px;
     background-color: black;
-    
     position: relative;
-
-
 }
 
 img{
@@ -54,9 +51,15 @@ p {
     color: #fff;
   }
 
-  .image:hover p {
+  .card:hover p {
     opacity: 5;
     bottom: 25%;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.8s ease-in-out;
+  }
+
+  .card:hover img{
+    filter: grayscale(100%);
+    transition: all 0.8s ease-in-out;
+
   }
 
